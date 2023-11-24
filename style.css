@@ -21,7 +21,27 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
        
 }
+styling
+.navbar{ 
+    position: absolute; 
+    width: 100%;
+   
+}
 
+.navbar a{
+   position: relative;
+   left: 45%;
+   top:20px ;
+   color: black;
+   text-decoration: none;
+   margin-right: 20px;
+    text-transform: uppercase;
+    position: relative;
+    transition: 0.4s ease-in-out;
+}
+.navbar a:hover{
+    color: rgb(90, 39, 219);
+}
 
 
 
