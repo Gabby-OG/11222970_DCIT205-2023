@@ -21,7 +21,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
        
 }
-styling
+
 .navbar{ 
     position: absolute; 
     width: 100%;
@@ -43,5 +43,62 @@ styling
     color: rgb(90, 39, 219);
 }
 
+
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #dadada;
+}.container{
+    display: flex;
+    
+    flex-wrap: wrap;
+    margin-top: 92px;
+   position: absolute;
+}
+.card{
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0, 0, 2);
+    margin: 30px;
+    transition: transform 0.6s ease;
+    }
+
+.card:hover{
+    transform: translateY(-20px);
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card-content h3{
+     font-size: 28px;
+     margin-bottom: 10px;
+}
+.card-content p{
+    color: #666;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 10px;
+}
+ .button{
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: #f0f0f0;
+    transition: 0.4s ease-in-out;
+}
+.button:hover{
+    background-color: rgb(96, 190, 190);
+}
 
 
