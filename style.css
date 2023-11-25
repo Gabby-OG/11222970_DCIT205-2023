@@ -96,6 +96,7 @@ body{
     margin-top: 16px;
     color: #f0f0f0;
     transition: 0.4s ease-in-out;
+   margin: 26px;
 }
 .button:hover{
     background-color: rgb(96, 190, 190);
@@ -116,10 +117,12 @@ footer{
 .row{
     display: inline-block;
     margin: 10px;
-    text-align: center;
-  
+    
+    
 }
 ul{
     list-style: none;
+    
+    
 }
 
